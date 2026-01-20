@@ -16,7 +16,7 @@ const port = 4001;
 
 //middlewares
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:5173'],
+  origin: ['https://invoice-pibn38a3j-avula-rohiths-projects.vercel.app/'],
   credentials: true,
 }));
 app.use(clerkMiddleware());
