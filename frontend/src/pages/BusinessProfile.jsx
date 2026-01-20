@@ -6,7 +6,7 @@ import {
   customStyles,
 } from "../assets/dummyStyles";
 
-const API_BASE = "http://localhost:4001";
+const API_BASE = "https://invoiceai-0j7n.onrender.com";
 
 /* ---------- small icon components ---------- */
 const UploadIcon = ({ className = "w-5 h-5" }) => (
