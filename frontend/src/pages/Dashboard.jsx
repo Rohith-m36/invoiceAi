@@ -6,7 +6,7 @@ import { dashboardStyles } from "../assets/dummyStyles";
 import { useAuth } from "@clerk/clerk-react";
 
 /* API base (adjust via env in production if needed) */
-const API_BASE = "http://localhost:4001";
+const API_BASE = "https://invoiceai-0j7n.onrender.com";
 
 /* normalize client object (same logic as before) */
 function normalizeClient(raw) {
